@@ -6,13 +6,13 @@
 
 echo "START"
 
-# Check for Homebrew, install if we don't have it
+# Проверка установлен ли Homebrew
 if test ! $(which brew); then
-    echo "Installing homebrew..."
+    echo "Устанавливаю brew..."
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Update homebrew recipes
+# Update homebrew
 brew update
 
 # Install GNU core utilities
@@ -23,8 +23,6 @@ brew install gnu-tar --with-default-names
 brew install gnu-indent --with-default-names
 brew install gnu-which --with-default-names
 brew install gnu-grep --with-default-names
-
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew install findutils
 
 # Install Bash 4
