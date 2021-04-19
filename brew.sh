@@ -158,9 +158,5 @@ defaults write com.apple.finder FXPreferredViewStyle Clmv
 echo "Avoiding the creation of .DS_Store files on network volumes"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
-echo "Creating folder structure..."
-[[ ! -d Wiki ]] && mkdir Wiki
-[[ ! -d Workspace ]] && mkdir Workspace
-
-echo "Bootstrapping complete"
+echo "FINISH"
 
