@@ -7,10 +7,10 @@
 echo "START"
 
 # Проверка установлен ли Homebrew
-if test ! $(which brew); then
-    echo "Устанавливаю brew..."
+#if test ! $(which brew); then
+#    echo "Устанавливаю brew..."
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-fi
+#fi
 
 # Update homebrew
 brew update
