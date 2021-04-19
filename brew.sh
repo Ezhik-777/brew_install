@@ -1,13 +1,10 @@
 #!/usr/bin/env bash
 # 
 # chmod 755 brew.sh
-# Notes:
+# bash brew.sh
 #
-# - If installing full Xcode, it's better to install that first from the app
-#   store before running the bootstrap script. Otherwise, Homebrew can't access
-#   the Xcode libraries as the agreement hasn't been accepted yet.
 
-echo "Starting bootstrapping"
+echo "START"
 
 # Check for Homebrew, install if we don't have it
 if test ! $(which brew); then
@@ -18,7 +15,7 @@ fi
 # Update homebrew recipes
 brew update
 
-# Install GNU core utilities (those that come with OS X are outdated)
+# Install GNU core utilities
 brew tap homebrew/dupes
 brew install coreutils
 brew install gnu-sed --with-default-names
@@ -69,9 +66,6 @@ brew cleanup
 
 echo "Installing cask..."
 brew install caskroom/cask/brew-cask
-
-
-
 
 CASKS=(
     1password
