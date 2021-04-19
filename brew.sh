@@ -67,29 +67,27 @@ brew cleanup
 echo "Installing cask..."
 brew install caskroom/cask/brew-cask
 
-CASKS=(
-    1password
-    balenaetcher
-    docker
-    firefox
-    github
-    google-chrome
-    gpgtools
-    iterm2
-    little-snitch
-    macvim
-    microsoft-word
-    microsoft-excel
-    parallels
-    pycharm-ce-with-anaconda-plugin
-    setapp
-    teamviewer
-    visual-studio-code
-    vlc
-)
-
 echo "Installing cask apps..."
-brew install --cask ${CASKS[@]}
+
+brew install --cask 1password
+brew install --cask balenaetcher
+brew install --cask docker
+brew install --cask firefox
+brew install --cask github
+brew install --cask google-chrome
+brew install --cask gpgtools
+brew install --cask iterm2
+brew install --cask little-snitch
+brew install --cask macvim
+brew install --cask microsoft-word
+brew install --cask microsoft-excel
+brew install --cask parallels
+brew install --cask pycharm-ce-with-anaconda-plugin
+brew install --cask setapp
+brew install --cask teamviewer
+brew install --cask visual-studio-code
+brew install --cask vlc
+
 
 echo "Installing fonts..."
 brew tap caskroom/fonts
@@ -159,4 +157,3 @@ echo "Avoiding the creation of .DS_Store files on network volumes"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 
 echo "FINISH"
-
