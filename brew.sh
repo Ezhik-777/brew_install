@@ -1,16 +1,14 @@
 #!/usr/bin/env bash
 # 
-# chmod 755 brew.sh
-# bash brew.sh
 #
 
 echo "START"
 
 # Проверка установлен ли Homebrew
-#if test ! $(which brew); then
-#    echo "Устанавливаю brew..."
+if test ! $(which brew); then
+    echo "Устанавливаю brew..."
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-#fi
+fi
 
 # Update homebrew
 brew update
@@ -79,7 +77,6 @@ brew install --cask microsoft-word
 brew install --cask microsoft-excel
 brew install --cask parallels
 brew install --cask pycharm-ce-with-anaconda-plugin
-brew install --cask setapp
 brew install --cask teamviewer
 brew install --cask visual-studio-code
 brew install --cask vlc
