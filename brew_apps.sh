@@ -3,7 +3,8 @@
 #
 
 echo "START"
-#PASSW
+
+#Ввод пароля
 sudo -v
 
 # Проверка установлен ли Homebrew
@@ -25,18 +26,17 @@ brew install gnu-which --with-default-names
 brew install gnu-grep --with-default-names
 brew install findutils
 
-# Install Bash 4
-brew install bash
-
 PACKAGES=(
     autoconf
     automake
     balena-cli
+    cask
     git
     hub
     jq
     markdown
     memcached
+    npm
     pkg-config
     python
     python3
@@ -54,29 +54,36 @@ brew install ${PACKAGES[@]}
 echo "Cleaning up..."
 brew cleanup
 
-echo "Installing cask..."
-brew install caskroom/cask/brew-cask
-
 echo "Installing cask apps..."
 brew install --cask \
-1password \
-balenaetcher \
-docker \
-firefox \
-github \
-google-chrome \
-iterm2 \
-little-snitch \
-microsoft-word \
-microsoft-excel \
-parallels \
-pycharm-ce-with-anaconda-plugin \
-teamviewer \
-visual-studio-code \
-vlc
+    1password \
+    balenaetcher \
+    betterzip \
+    docker \
+    firefox \
+    github \
+    google-chrome \
+    iterm2 \
+    little-snitch \
+    microsoft-word \
+    microsoft-excel \
+    parallels \
+    pycharm-ce-with-anaconda-plugin \
+    suspicious-package/
+    teamviewer \
+    transmission \
+    visual-studio-code \
+    vlc \
+    qlcolorcode \
+    qlstephen \
+    qlmarkdown \
+    quicklook-json \
+    qlprettypatch \
+    quicklook-csv \
+    webpquicklook
 
 
-echo "Installing fonts..."
+echo "Installing fonts..."‚
 brew tap caskroom/fonts
 FONTS=(
     font-inconsolidata
@@ -101,7 +108,7 @@ RUBY_GEMS=(
 )
 sudo gem install ${RUBY_GEMS[@]}
 
-echo "Installing global npm packages..."
+echo "Installing global packages..."
 npm install marked -g
 
 echo "Configuring MacOS..."
