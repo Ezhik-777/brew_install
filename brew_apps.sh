@@ -190,6 +190,9 @@ defaults write com.apple.frameworks.diskimages skip-verify-remote -bool true
 # Disable the warning before emptying the Trash
 defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
+# Use AirDrop over every interface.
+defaults write com.apple.NetworkBrowser BrowseAllInterfaces 1
+
 ###############################################################################
 # Dock,                                                                       #
 ###############################################################################
