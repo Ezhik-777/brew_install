@@ -104,10 +104,7 @@ sudo gem install ${RUBY_GEMS[@]}
 echo "Installing global npm packages..."
 npm install marked -g
 
-echo "Configuring OSX..."
-
-# Set fast key repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 0
+echo "Configuring MacOS..."
 
 # Require password as soon as screensaver or sleep mode starts
 defaults write com.apple.screensaver askForPassword -int 1
