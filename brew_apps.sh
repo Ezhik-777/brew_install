@@ -66,22 +66,22 @@ echo "Installing cask..."
 brew install caskroom/cask/brew-cask
 
 echo "Installing cask apps..."
-
-brew install --cask 1password
-brew install --cask balenaetcher
-brew install --cask docker
-brew install --cask firefox
-brew install --cask github
-brew install --cask google-chrome
-brew install --cask iterm2
-brew install --cask little-snitch
-brew install --cask microsoft-word
-brew install --cask microsoft-excel
-brew install --cask parallels
-brew install --cask pycharm-ce-with-anaconda-plugin
-brew install --cask teamviewer
-brew install --cask visual-studio-code
-brew install --cask vlc
+brew install --cask \
+1password \
+balenaetcher \
+docker \
+firefox \
+github \
+google-chrome \
+iterm2 \
+little-snitch \
+microsoft-word \
+microsoft-excel \
+parallels \
+pycharm-ce-with-anaconda-plugin \
+teamviewer \
+visual-studio-code \
+vlc
 
 
 echo "Installing fonts..."
