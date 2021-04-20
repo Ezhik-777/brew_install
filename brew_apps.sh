@@ -29,23 +29,15 @@ brew install findutils
 brew install bash
 
 PACKAGES=(
-    ack
     autoconf
     automake
     balena-cli
-    boot2docker
-    ffmpeg
-    gettext
-    gifsicle
     git
-    graphviz
     hub
     jq
     markdown
     memcached
-    npm
     pkg-config
-    postgresql
     python
     python3
     pypy
