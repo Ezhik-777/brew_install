@@ -30,7 +30,9 @@ PACKAGES=(
     autoconf
     automake
     balena-cli
+    bash-completion
     cask
+    docker-completion
     git
     hub
     jq
@@ -113,15 +115,11 @@ npm install marked -g
 
 echo "Configuring MacOS..."
 
-# Require password as soon as screensaver or sleep mode starts
-defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 0
+# gitignore add
+curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.gitignore -o ~/.gitignore
 
 # Show filename extensions by default
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-
-# Disable "natural" scroll
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
 echo "Showing icons for hard drives, servers, and removable media on the desktop"
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
@@ -146,5 +144,6 @@ defaults write com.apple.finder FXPreferredViewStyle Clmv
 
 echo "Avoiding the creation of .DS_Store files on network volumes"
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
 
 echo "FINISH"
