@@ -3,6 +3,8 @@
 #
 
 echo "START"
+#PASSW
+sudo -v
 
 # Проверка установлен ли Homebrew
 if test ! $(which brew); then
