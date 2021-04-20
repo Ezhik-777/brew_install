@@ -260,8 +260,8 @@ for app in "Activity Monitor" \
 	"Photos" \
 	"Safari" \
 	"SystemUIServer" \
-	"Terminal" \
-	"Transmission"; do
+	"Transmission" \
+	"Terminal"; do
 	killall "${app}" &> /dev/null
 done
 echo "FINISH_ ребутнись, для полного счастья!"
