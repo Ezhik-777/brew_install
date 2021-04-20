@@ -32,89 +32,74 @@ brew install gnu-which --with-default-names
 brew install gnu-grep --with-default-names
 brew install findutils
 
-PACKAGES=(
-    autoconf
-    automake
-    balena-cli
-    bash-completion
-    cask
-    docker-completion
-    git
-    hub
-    jq
-    markdown
-    memcached
-    npm
-    pkg-config
-    python
-    python3
-    pypy
-    rename
-    tmux
-    tree
-    vim
-    wget
-)
-
-echo "Installing packages..."
-brew install ${PACKAGES[@]}
+#Installing packages
+brew install autoconf
+brew install automake
+brew install balena-cli
+brew install bash-completion
+brew install cask
+brew install docker-completion
+brew install git
+brew install hub
+brew install jq
+brew install markdown
+brew install memcached
+brew install npm
+brew install pkg-config
+brew install python
+brew install python3
+brew install pypy
+brew install rename
+brew install tmux
+brew install tree
+brew install vim
+brew install wget
 
 echo "Cleaning up..."
 brew cleanup
 
 echo "Installing cask apps..."
-brew install --cask \
-    1password \
-    balenaetcher \
-    betterzip \
-    docker \
-    firefox \
-    github \
-    google-chrome \
-    iterm2 \
-    little-snitch \
-    microsoft-word \
-    microsoft-excel \
-    parallels \
-    pycharm-ce-with-anaconda-plugin \
-    suspicious-package/
-    teamviewer \
-    transmission \
-    visual-studio-code \
-    vlc \
-    qlcolorcode \
-    qlstephen \
-    qlmarkdown \
-    quicklook-json \
-    qlprettypatch \
-    quicklook-csv \
-    webpquicklook
-
+brew install --cask 1password
+brew install --cask balenaetcher
+brew install --cask betterzip
+brew install --cask docker
+brew install --cask firefox
+brew install --cask github
+brew install --cask google-chrome
+brew install --cask iterm2
+brew install --cask little-snitch
+brew install --cask microsoft-word
+brew install --cask microsoft-excel
+brew install --cask parallels
+brew install --cask pycharm-ce-with-anaconda-plugin
+brew install --cask suspicious-package
+brew install --cask teamviewer
+brew install --cask transmission
+brew install --cask visual-studio-code
+brew install --cask vlc
+brew install --cask qlcolorcode
+brew install --cask qlstephen
+brew install --cask qlmarkdown
+brew install --cask quicklook-json
+brew install --cask qlprettypatch
+brew install --cask quicklook-csv
+brew install --cask webpquicklook
 
 echo "Installing fonts..."‚
 brew tap caskroom/fonts
-FONTS=(
-    font-inconsolidata
-    font-roboto
-    font-clear-sans
-)
-brew cask install ${FONTS[@]}
+brew install --cask font-inconsolidata
+brew install --cask font-roboto
+brew install --cask font-clear-sans
 
 echo "Installing Python packages..."
-PYTHON_PACKAGES=(
-    ipython
-    virtualenv
-    virtualenvwrapper
-)
-sudo pip install ${PYTHON_PACKAGES[@]}
+sudo pip install ipython
+sudo pip install virtualenv
+sudo pip install virtualenvwrapper
 
 echo "Installing Ruby gems"
-RUBY_GEMS=(
-    bundler
-    filewatcher
-    cocoapods
-)
-sudo gem install ${RUBY_GEMS[@]}
+sudo gem install bundler
+sudo gem install filewatcher
+sudo gem install cocoapods
 
 echo "Installing global packages..."
 npm install marked -g
