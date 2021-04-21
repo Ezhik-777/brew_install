@@ -13,10 +13,13 @@ sudo -v
 # Запомнить судо на 2 часа
 while true; do sudo -n true; sleep 120; kill -0 "$$" || exit; done 2>/dev/null &
 
+#xcode install
+xcode-select --install
+
 # Проверка установлен ли Homebrew
 if test ! $(which brew); then
     echo "Устанавливаю brew..."
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # Update homebrew
