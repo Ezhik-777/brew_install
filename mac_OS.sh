@@ -152,9 +152,6 @@ defaults write com.apple.finder QuitMenuItem -bool true
 # Finder: show hidden files by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
-# Show filename extensions by default
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-
 # Finder: show status bar
 defaults write com.apple.finder ShowStatusBar -bool true
 
