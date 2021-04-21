@@ -72,6 +72,7 @@ brew install --cask microsoft-word
 brew install --cask microsoft-excel
 brew install --cask parallels
 brew install --cask pycharm-ce-with-anaconda-plugin
+brew install --cask setapp
 brew install --cask suspicious-package
 brew install --cask teamviewer
 brew install --cask transmission
