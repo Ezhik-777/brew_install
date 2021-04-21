@@ -19,7 +19,7 @@ xcode-select --install
 # Проверка установлен ли Homebrew
 if test ! $(which brew); then
     echo "Устанавливаю brew..."
-    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 fi
 
 # Update homebrew
