@@ -66,7 +66,6 @@ brew install --cask 1password
 brew install --cask balenaetcher
 brew install --cask betterzip
 brew install --cask docker
-brew install --cask firefox
 brew install --cask github
 brew install --cask google-chrome
 brew install --cask iterm2
