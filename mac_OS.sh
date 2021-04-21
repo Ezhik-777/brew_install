@@ -88,12 +88,6 @@ brew install --cask qlprettypatch
 brew install --cask quicklook-csv
 brew install --cask webpquicklook
 
-echo "Installing fonts..."‚
-brew tap caskroom/fonts
-brew install --cask font-inconsolidata
-brew install --cask font-roboto
-brew install --cask font-clear-sans
-
 echo "Installing Python packages..."
 sudo pip install ipython
 sudo pip install virtualenv
