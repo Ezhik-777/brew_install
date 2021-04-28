@@ -68,6 +68,7 @@ brew cleanup
 echo "Installing cask apps..."
 brew install --cask 1password
 brew install --cask alfred
+brew install --cask alt-tab
 brew install --cask appcleaner
 brew install --cask balenaetcher
 brew install --cask betterzip
@@ -84,6 +85,7 @@ brew install --cask microsoft-excel
 brew install --cask ngrok # тунель к локальному порту из вне! АГОНЬ)
 brew install --cask parallels
 brew install --cask pycharm-ce-with-anaconda-plugin
+brew install --cask raycast
 brew install --cask rectangle
 brew install --cask setapp
 brew install --cask suspicious-package
