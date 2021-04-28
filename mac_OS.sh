@@ -42,6 +42,7 @@ brew install balena-cli
 brew install bash-completion
 brew install cask
 brew install docker-completion
+brew install thefuck
 brew install git
 brew install hub
 brew install jq
