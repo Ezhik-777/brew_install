@@ -73,7 +73,9 @@ brew install --cask balenaetcher
 brew install --cask betterzip
 brew install --cask docker
 brew install --cask github
+brew install --cask gitkraken
 brew install --cask google-chrome
+brew install --cask ilya-birman-typography-layout
 brew install --cask iterm2
 brew install --cask itsycal
 brew install --cask little-snitch
