@@ -79,6 +79,7 @@ brew install --cask microsoft-excel
 brew install --cask ngrok # тунель к локальному порту из вне! АГОНЬ)
 brew install --cask parallels
 brew install --cask pycharm-ce-with-anaconda-plugin
+brew install --cask rectangle
 brew install --cask setapp
 brew install --cask suspicious-package
 brew install --cask teamviewer
