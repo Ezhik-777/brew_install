@@ -59,6 +59,9 @@ brew install tree
 brew install vim
 brew install wget
 
+eval $(thefuck --alias)
+eval $(thefuck --alias FUCK)
+
 echo "Cleaning up..."
 brew cleanup
 
