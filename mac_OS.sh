@@ -25,6 +25,9 @@ fi
 # Update homebrew
 brew update
 
+# appdir 
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
 # Install GNU core utilities
 brew tap homebrew/dupes
 brew install coreutils
