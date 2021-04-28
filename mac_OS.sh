@@ -86,7 +86,6 @@ brew install --cask ngrok # тунель к локальному порту из
 brew install --cask parallels
 brew install --cask pycharm-ce-with-anaconda-plugin
 brew install --cask raycast
-brew install --cask rectangle
 brew install --cask setapp
 brew install --cask suspicious-package
 brew install --cask teamviewer
