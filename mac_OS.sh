@@ -72,6 +72,7 @@ brew install --cask iterm2
 brew install --cask little-snitch
 brew install --cask microsoft-word
 brew install --cask microsoft-excel
+brew install --cask ngrok
 brew install --cask parallels
 brew install --cask pycharm-ce-with-anaconda-plugin
 brew install --cask setapp
