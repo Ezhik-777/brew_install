@@ -90,6 +90,7 @@ brew install --cask setapp
 brew install --cask suspicious-package
 brew install --cask teamviewer
 brew install --cask transmission
+brew install --cask tunnelblick
 brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask qlcolorcode
