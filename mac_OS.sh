@@ -67,6 +67,7 @@ brew cleanup
 
 echo "Installing cask apps..."
 brew install --cask 1password
+brew install --cask alfred
 brew install --cask balenaetcher
 brew install --cask betterzip
 brew install --cask docker
