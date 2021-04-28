@@ -74,6 +74,7 @@ brew install --cask docker
 brew install --cask github
 brew install --cask google-chrome
 brew install --cask iterm2
+brew install --cask itsycal
 brew install --cask little-snitch
 brew install --cask microsoft-word
 brew install --cask microsoft-excel
