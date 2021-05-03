@@ -82,7 +82,6 @@ brew install --cask google-chrome
 brew install --cask ilya-birman-typography-layout
 brew install --cask iterm2
 brew install --cask itsycal
-brew install --cask keepassxc
 brew install --cask little-snitch
 brew install --cask microsoft-word
 brew install --cask microsoft-excel
