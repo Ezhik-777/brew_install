@@ -28,36 +28,16 @@ brew update
 # appdir 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
-# Install GNU core utilities
-brew tap homebrew/dupes
-brew install coreutils
-brew install gnu-sed
-brew install gnu-tar
-brew install gnu-indent
-brew install gnu-which
-brew install gnu-grep
-brew install findutils
-
 #Installing packages
-brew install autoconf
-brew install automake
 brew install balena-cli
 brew install bash-completion
 brew install cask
 brew install docker-completion
 brew install thefuck
 brew install git
-brew install hub
-brew install jq
-brew install markdown
-brew install memcached
 brew install npm
-brew install pkg-config
 brew install python
 brew install python3
-brew install pypy
-brew install rename
-brew install tmux
 brew install tree
 brew install vim
 brew install wget
@@ -97,13 +77,6 @@ brew install --cask transmission
 brew install --cask tunnelblick
 brew install --cask visual-studio-code
 brew install --cask vlc
-brew install --cask qlcolorcode
-brew install --cask qlstephen
-brew install --cask qlmarkdown
-brew install --cask quicklook-json
-brew install --cask qlprettypatch
-brew install --cask quicklook-csv
-brew install --cask webpquicklook
 
 echo "Installing Python packages..."
 sudo pip install ipython
@@ -125,15 +98,6 @@ curl https://raw.githubusercontent.com/github/gitignore/master/Global/macOS.giti
 
 echo "Showing icons for hard drives, servers, and removable media on the desktop"
 defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
-
-echo "Showing all filename extensions in Finder by default"
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-
-echo "Showing status bar in Finder by default"
-defaults write com.apple.finder ShowStatusBar -bool true
-
-echo "Allowing text selection in Quick Look/Preview in Finder by default"
-defaults write com.apple.finder QLEnableTextSelection -bool true
 
 echo "Displaying full POSIX path as Finder window title"
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
@@ -234,15 +198,6 @@ defaults write com.apple.SoftwareUpdate CriticalUpdateInstall -int 1
 defaults write com.apple.commerce AutoUpdate -bool true
 
 ###############################################################################
-# Transmission.app                                                            #
-###############################################################################
-
-# Use `~/Documents/Torrents` to store incomplete downloads
-defaults write org.m0k.transmission UseIncompleteDownloadFolder -bool true
-defaults write org.m0k.transmission IncompleteDownloadFolder -string "${HOME}/Downloads/Torrents_incomplete"
-
-# Use `~/Downloads` to store completed downloads
-defaults write org.m0k.transmission DownloadLocationConstant -bool true
 
 for app in "Activity Monitor" \
 	"Address Book" \
