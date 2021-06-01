@@ -92,6 +92,7 @@ brew install --cask raycast
 brew install --cask setapp
 brew install --cask suspicious-package
 brew install --cask teamviewer
+brew install --cask termius
 brew install --cask transmission
 brew install --cask tunnelblick
 brew install --cask visual-studio-code
