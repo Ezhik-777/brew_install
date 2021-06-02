@@ -26,7 +26,11 @@ fi
 brew update
 
 # M1 config for brew
-echo 'export PATH="/opt/homebrew/bin:$PATH"' >> .zshrc
+grep -q -F 'export PATH="/opt/homebrew/bin:$PATH"' .zshrc
+if [ $? -ne 0 ]; then
+  echo 'export PATH="/opt/homebrew/bin:$PATH"' >> .zshrc
+fi
+
 source ~/.zshrc
 
 # appdir 
