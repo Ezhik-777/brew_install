@@ -70,11 +70,9 @@ brew cleanup
 CASKS=(
 1password
 alfred
-alt-tab
 appcleaner
 balenaetcher
 betterzip
-cheatsheet
 docker
 github
 google-chrome
