@@ -25,10 +25,8 @@ fi
 # Update homebrew
 brew update
 
-# M1 config & doctor & PATH update
-brew config
-brew doctor
-export PATH="/opt/homebrew/bin:$PATH"
+# M1 config for brew
+echo 'export PATH="/opt/homebrew/bin:$PATH"' > .zshrc
 
 # appdir 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
