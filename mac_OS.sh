@@ -60,27 +60,27 @@ brew cleanup
 ###############################################################################
 
 CASKS=(
+setapp
 1password
 alfred
 alt-tab
 appcleaner
 balenaetcher
-brew install --cask betterzip
-brew install --cask docker
-brew install --cask github
-brew install --cask google-chrome
-brew install --cask ilya-birman-typography-layout
-brew install --cask iterm2
-brew install --cask itsycal
-brew install --cask karabiner-elements
-brew install --cask little-snitch
-brew install --cask microsoft-word
-brew install --cask microsoft-excel
-brew install --cask ngrok # тунель к локальному порту из вне! АГОНЬ)
-brew install --cask parallels
-brew install --cask pycharm-ce-with-anaconda-plugin
-brew install --cask raycast
-brew install --cask setapp
+betterzip
+docker
+github
+google-chrome
+ilya-birman-typography-layout
+iterm2
+itsycal
+karabiner-elements
+little-snitch
+microsoft-word
+microsoft-excel
+ngrok # тунель к локальному порту из вне! АГОНЬ)
+parallels
+pycharm-ce-with-anaconda-plugin
+raycast
 suspicious-package
 teamviewer
 termius
