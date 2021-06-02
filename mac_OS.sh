@@ -81,6 +81,7 @@ parallels
 pycharm-ce-with-anaconda-plugin
 raycast
 #setapp ставь руками)
+sublime-text
 suspicious-package
 teamviewer
 termius
