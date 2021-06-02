@@ -25,6 +25,11 @@ fi
 # Update homebrew
 brew update
 
+# M1 config & doctor & PATH update
+brew config
+brew doctor
+export PATH="/opt/homebrew/bin:$PATH"
+
 # appdir 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
