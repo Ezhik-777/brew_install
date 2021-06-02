@@ -60,7 +60,6 @@ brew cleanup
 ###############################################################################
 
 CASKS=(
-setapp
 1password
 alfred
 alt-tab
@@ -81,6 +80,7 @@ ngrok # тунель к локальному порту из вне! АГОНЬ)
 parallels
 pycharm-ce-with-anaconda-plugin
 raycast
+#setapp ставь руками)
 suspicious-package
 teamviewer
 termius
