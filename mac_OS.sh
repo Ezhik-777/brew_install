@@ -102,6 +102,10 @@ vlc
 echo "Installing cask apps..."
 brew install --cask ${CASKS[@]}
 
+# git config
+git config --global user.name "Evgenij Eliseew"
+git config --global user.email evgenij_eliseew@live.de
+
 
 echo "Installing Python packages..."
 sudo pip install ipython
