@@ -28,7 +28,7 @@ brew update
 # appdir 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
-#Installing packages
+PACKAGES=(
 brew install balena-cli
 brew install bash-completion
 brew install cask
@@ -41,6 +41,10 @@ brew install python3
 brew install tree
 brew install vim
 brew install wget
+)
+
+echo "Installing packages..."
+brew install ${PACKAGES[@]}
 
 eval $(thefuck --alias)
 eval $(thefuck --alias FUCK)
@@ -48,7 +52,9 @@ eval $(thefuck --alias FUCK)
 echo "Cleaning up..."
 brew cleanup
 
-echo "Installing cask apps..."
+###############################################################################
+
+CASKS=(
 brew install --cask 1password
 brew install --cask alfred
 brew install --cask alt-tab
@@ -77,6 +83,11 @@ brew install --cask transmission
 brew install --cask tunnelblick
 brew install --cask visual-studio-code
 brew install --cask vlc
+)
+
+echo "Installing cask apps..."
+brew cask install ${CASKS[@]}
+
 
 echo "Installing Python packages..."
 sudo pip install ipython
