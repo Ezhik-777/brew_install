@@ -34,18 +34,18 @@ export PATH="/opt/homebrew/bin:$PATH"
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 PACKAGES=(
-brew install balena-cli
-brew install bash-completion
-brew install cask
-brew install docker-completion
-brew install thefuck
-brew install git
-brew install npm
-brew install python
-brew install python3
-brew install tree
-brew install vim
-brew install wget
+balena-cli
+bash-completion
+cask
+docker-completion
+thefuck
+git
+npm
+python
+python3
+tree
+vim
+wget
 )
 
 echo "Installing packages..."
