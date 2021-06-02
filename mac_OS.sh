@@ -46,10 +46,15 @@ git
 npm
 python
 python3
+romkatv/powerlevel10k/powerlevel10k
 tree
 vim
 wget
+zsh
 )
+
+# zsh theme powerlevel10k
+echo "source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme" >>~/.zshrc
 
 echo "Installing packages..."
 brew install ${PACKAGES[@]}
