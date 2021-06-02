@@ -60,11 +60,11 @@ brew cleanup
 ###############################################################################
 
 CASKS=(
-brew install --cask 1password
-brew install --cask alfred
-brew install --cask alt-tab
-brew install --cask appcleaner
-brew install --cask balenaetcher
+1password
+alfred
+alt-tab
+appcleaner
+balenaetcher
 brew install --cask betterzip
 brew install --cask docker
 brew install --cask github
@@ -81,17 +81,17 @@ brew install --cask parallels
 brew install --cask pycharm-ce-with-anaconda-plugin
 brew install --cask raycast
 brew install --cask setapp
-brew install --cask suspicious-package
-brew install --cask teamviewer
-brew install --cask termius
-brew install --cask transmission
-brew install --cask tunnelblick
-brew install --cask visual-studio-code
-brew install --cask vlc
+suspicious-package
+teamviewer
+termius
+transmission
+tunnelblick
+visual-studio-code
+vlc
 )
 
 echo "Installing cask apps..."
-brew cask install ${CASKS[@]}
+brew install --cask ${CASKS[@]}
 
 
 echo "Installing Python packages..."
