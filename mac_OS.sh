@@ -26,7 +26,7 @@ fi
 brew update
 
 # M1 config for brew
-echo 'export PATH="/opt/homebrew/bin:$PATH"' > .zshrc
+echo 'export PATH="/opt/homebrew/bin:$PATH"' >> .zshrc
 source ~/.zshrc
 
 # appdir 
