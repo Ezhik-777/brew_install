@@ -74,6 +74,7 @@ alt-tab
 appcleaner
 balenaetcher
 betterzip
+cheatsheet
 docker
 github
 google-chrome
