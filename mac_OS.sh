@@ -87,6 +87,7 @@ ngrok # тунель к локальному порту из вне! АГОНЬ)
 parallels
 pycharm-ce-with-anaconda-plugin
 raycast
+rclone # бекап в s3  -> cli
 #setapp ставь руками)
 sublime-text
 suspicious-package
