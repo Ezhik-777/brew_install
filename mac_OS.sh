@@ -71,6 +71,7 @@ brew cleanup
 CASKS=(
 1password
 alfred
+arq
 appcleaner
 balenaetcher
 betterzip
