@@ -46,7 +46,6 @@ git
 npm
 python
 python3
-rclone # бекап в s3  -> cli
 romkatv/powerlevel10k/powerlevel10k
 tree
 vim
@@ -89,7 +88,6 @@ ngrok # тунель к локальному порту из вне! АГОНЬ)
 parallels
 pycharm-ce-with-anaconda-plugin
 raycast
-clone-browser # бекап в s3  -> cli
 #setapp ставь руками)
 sublime-text
 suspicious-package
