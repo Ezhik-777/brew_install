@@ -1,15 +1,17 @@
-import numpy as np
-import pandas as pd
- 
-def myfv(rate, nper, pmt):
-    return np.fv(rate, nper, -pmt, -pmt)
- 
-dx05=[myfv(0.05, x, 1)  for x in range(0,50) ]
-dx08=[myfv(0.08, x, 1)  for x in range(0,50)]
-dx10=[myfv(0.10, x, 1) for x in range(0,50)]
-df=pd.DataFrame(columns=['dx05', 'dx08', 'dx10'])
-df['dx05']=dx05[:]
-df['dx08']=dx08
-df['dx10']=dx10
-print(df.tail(1))
-df.plot()
+p = float(input()) # Годовая процентная ставка
+x = int(input())   # К-во рублей вклада
+y = int(input())   # К-во копеек вклада
+k = int(input())   # Строк вклада
+i = 0              # Счётчик лет
+
+kopT = (x * 100) + y  # Переводим сумму вклада в копейки
+kop = 0               # Сумма вклада с процентами по прошествию і года
+while i <= k:         
+
+    kop = int(kopT + kopT / 100 * p) # Сумма вклада + годовой процент
+    x = kop // 100                   # К-во рублей 
+    y = int(kop % 100)               # К-во копеек без дробной части
+    kopT = (x * 100) + y             # Переводим сумму вклада с проц. в копейки
+    i += 1                           # Добавляем год
+
+print(x, y)                          # Выводим сумму в рублях и копейках итого
