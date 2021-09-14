@@ -67,13 +67,6 @@ eval $(thefuck --alias FUCK)
 
 echo "Cleaning up..."
 brew cleanup
-# aliasЫ
-alias l='exa'
-alias la='exa -a'
-alias ll='exa -lah'
-alias ls='exa --color=auto'
-
-alias cat='bat --style=plain'
 
 ###############################################################################
 
