@@ -43,6 +43,8 @@ cask
 docker-completion
 thefuck
 git
+lazydocker
+lazygit
 npm
 python
 python3
