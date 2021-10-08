@@ -76,7 +76,6 @@ alfred
 arq
 appcleaner
 balenaetcher
-betterzip
 docker
 github
 google-chrome
