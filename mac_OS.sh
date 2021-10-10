@@ -42,6 +42,7 @@ bash-completion
 bat
 cask
 docker-completion
+icloud-control
 thefuck
 git
 lazydocker
