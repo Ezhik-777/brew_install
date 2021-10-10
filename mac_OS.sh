@@ -42,7 +42,6 @@ bash-completion
 bat
 cask
 docker-completion
-icloud-control
 thefuck
 git
 lazydocker
@@ -80,6 +79,7 @@ balenaetcher
 docker
 github
 google-chrome
+icloud-control
 ilya-birman-typography-layout
 iterm2
 itsycal
