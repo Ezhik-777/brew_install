@@ -41,6 +41,7 @@ balena-cli
 bash-completion
 bat
 cask
+cmake
 docker-completion
 thefuck
 git
