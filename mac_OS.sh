@@ -43,6 +43,7 @@ bat
 cask
 cmake
 docker-completion
+gh
 thefuck
 git
 lazydocker
