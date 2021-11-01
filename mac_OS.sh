@@ -52,6 +52,7 @@ npm
 python
 python3
 romkatv/powerlevel10k/powerlevel10k
+sublime-merge
 tree
 vim
 wget
