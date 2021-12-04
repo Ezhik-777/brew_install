@@ -98,6 +98,7 @@ raycast
 #setapp ставь руками)
 sublime-text
 suspicious-package
+tailscale
 teamviewer
 termius
 transmission
