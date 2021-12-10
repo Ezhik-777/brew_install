@@ -45,6 +45,7 @@ cask
 cmake
 dive
 docker-completion
+docui
 gh
 thefuck
 git
