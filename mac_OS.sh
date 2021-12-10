@@ -37,6 +37,7 @@ source ~/.zshrc
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 PACKAGES=(
+asciinema
 balena-cli
 bash-completion
 bat
