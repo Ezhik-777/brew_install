@@ -42,6 +42,7 @@ bash-completion
 bat
 cask
 cmake
+dive
 docker-completion
 gh
 thefuck
