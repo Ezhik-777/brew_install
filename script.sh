@@ -18,9 +18,9 @@ ufw allow in "Apache Full"
 
 service transmission-daemon stop
 nano /etc/transmission-daemon/settings.json
-set rpc-authentication-required as false
-set rpc-whitelist-enabled as false
-change download-dir to /var/www/html
+# set rpc-authentication-required as false
+# set rpc-whitelist-enabled as false
+# change download-dir to /var/www/html
 service transmission-daemon start
 
 chmod 777 /var/www/html/
