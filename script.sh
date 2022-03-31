@@ -1,7 +1,10 @@
 add-apt-repository -y ppa:transmissionbt/ppa
 apt-get -y update
 apt-get -y install transmission-cli transmission-common transmission-daemon apache2
-
+curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null &&
+              echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list &&
+              sudo apt update && sudo apt install ngrok   
+              
 nano /etc/apache2/apache2.conf
 # add to the bottom of file "ServerName" then the droplet IP address
 # e.g. ServerName 8.8.8.8
