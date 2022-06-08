@@ -52,10 +52,11 @@ git
 lazydocker
 lazygit
 npm
+openssh
 python
 python3
 romkatv/powerlevel10k/powerlevel10k
-sublime-merge
+tailscale
 tldr
 tree
 vim
@@ -95,14 +96,12 @@ little-snitch
 microsoft-word
 microsoft-excel
 ngrok # тунель к локальному порту из вне! АГОНЬ)
-openssh
 parallels
 pycharm-ce-with-anaconda-plugin
 raycast
 #setapp ставь руками)
 sublime-text
 suspicious-package
-tailscale
 teamviewer
 termius
 transmission
